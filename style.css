@@ -1,0 +1,35 @@
+.parent {
+  background: blue;
+  min-height: 100vh;
+  padding: 1rem;
+  position: relative;
+}
+
+/* position: static|initial|inherit|absolute|relative|fixed|sticky*/
+
+.child1 {
+  background: palegoldenrod;
+  /*position: fixed;*/
+  /*right: 20px;
+  bottom: 20px;*/
+}
+
+.child2 {
+  background: honeydew;
+  /* position: relative;
+  margin-top: 25px;
+  left: 50px;*/
+}
+
+.child3 {
+  background: peachpuff;
+  position: sticky;
+  top: 50px;
+  /*top: 25px;
+  left: -50px;*/
+}
+
+.parent > div {
+  height: 150px;
+  font-size: 2rem;
+}
